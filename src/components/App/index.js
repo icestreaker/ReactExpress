@@ -40,33 +40,29 @@ export default class App extends Component {
           </div>
 
           <div class="row">
-          <div class="col-sm-12 col-md-4">
+              <div class="col-sm-12 col-md-4"></div>
 
           <div class="col-sm-12 col-md-4">
           <div class="form-group"><div class="form-align"><div class="addUser" />
             <label for="user_email">Please enter your email:</label>
-            <input type="text" class="form-control" id="email"></input>
+            <input type="text" class="form-control" id="email" />
           </div></div></div>
           <div class="form-group"><div class="form-align"><div class="password" />
             <label for="user_password">Please type a password:</label>
-            <input type="text" class="form-control" id="password1"></input>
+            <input type="text" class="form-control" id="password1" />
           </div></div></div>
           <div class="form-group"><div class="form-align"><div class="checkpassword" />
             <label for="verify_password">Please re-type your password:</label>
-            <input type="text" class="form-control" id="password2"></input>
+            <input type="text" class="form-control" id="password2" />
           </div></div></div>
           <div class="form-group">
             <label for="btn">Please click to add your account</label>
-            <button class="btn btn-default" type="button" class="form-control"
-            /*onchange={setProps.newUser}*/>Submit</button>
+            <button class="btn btn-default" type="button" class="form-control">Submit</button>
           </div>
 
           <div class="col-sm-12 col-md-4"></div>
           </div>
         </div>
-      </div>
-
-
-    );
+      );
+    }
   }
-}

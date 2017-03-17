@@ -37,9 +37,11 @@ export default class About extends Component {
           </div>
 
           <div class="row">
-          <div class="col-sm-12 col-md-12">
-            <h1 class="Now">This has to stop now!</h1>
-          </div>
+            <div class="col-sm-12 col-md-4"></div>
+            <div class="col-sm-12 col-md-4">
+              <h1 class="Now">This has to stop now!</h1>
+            </div>
+            <div class="col-sm-12 col-md-4"></div>
           </div>
 
           <div class="row">
