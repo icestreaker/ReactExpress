@@ -1,24 +1,29 @@
-.App {
-  text-align: center;
+//Applies to any device, meant mainly for small mobile devices
+body {
+    background-color: black;
+    color: white;
+    height: auto;
+
+    float: left;
+    width: 95%;
+    right-margin: 2.5%;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+//This applies for devices with resolution larger than mobile devices including
+//tablets, laptops, or desktop monitors
+@media (min-width: 768px) {
+body {
+    background-color: black;
+    color: white;
+    height: auto;
+
+    float: left;
+    width: 95%;
+    right-margin: 2.5%;
+  }
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.Now {
+    text-align: center;
+    color: red;
 }
