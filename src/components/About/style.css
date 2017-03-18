@@ -1,29 +1,25 @@
 //Applies to any device, meant mainly for small mobile devices
 body {
-    background-color: black;
-    color: white;
-    height: auto;
-
-    float: left;
-    width: 95%;
-    right-margin: 2.5%;
+  background-color: black;
+  color: white;
+  height: auto;
+  float: left;
+  width: 95%;
 }
 
 //This applies for devices with resolution larger than mobile devices including
 //tablets, laptops, or desktop monitors
 @media (min-width: 768px) {
-body {
+  body {
     background-color: black;
     color: white;
     height: auto;
-
     float: left;
     width: 95%;
-    right-margin: 2.5%;
   }
 }
 
 .Now {
-    text-align: center;
-    color: red;
+  text-align: center;
+  color: red;
 }

@@ -1,18 +1,28 @@
+// src/components/About/index.js
 import React, { Component } from 'react';
+import classnames from 'classnames';
+import bootstrap from 'react-bootstrap';
 
 import './style.css';
 
-export default class About extends Component {
+class About extends Component {
+  static propTypes = {}
+  static defaultProps = {}
+  state = {}
+
   render() {
+    const { className, ...props } = this.props;
     return (
       <div>
-          <div class="container-fluid">
+        <div classname="about-us">
           <div class="row">
           <div class="col-sm-12 col-md-12">
               <h2 class="title">About Us</h2>
           </div>
           </div>
 
+
+        <div className="who-are-we">
           <div class="row">
           <div class="col-sm-12 col-md-6"><p>
             We are a group of individuals who work hard and who believe others
@@ -36,14 +46,19 @@ export default class About extends Component {
           </p></div>
           </div>
 
+
+        <div className="action">
           <div class="row">
             <div class="col-sm-12 col-md-4"></div>
+            </div>
             <div class="col-sm-12 col-md-4">
               <h1 class="Now">This has to stop now!</h1>
             </div>
             <div class="col-sm-12 col-md-4"></div>
           </div>
 
+
+        <div className="solution">
           <div class="row">
           <div class="col-sm-12 col-md-6"><p>
             We are helping the cause by providing the means a person can look up
@@ -58,11 +73,13 @@ export default class About extends Component {
             It is a small step to assist in what is potentially becoming a
             larger problem. Our group wants to help, and this is our gift to
             others to help. Feel free to create an account and help us and
-            others with this project!
-          </p></div>
-          </div>
-        </div>
-      </div>
+            others with this project!</p></div></div>
+
+        </div></div></div></div>
+
+
     );
   }
 }
+
+export default About;

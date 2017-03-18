@@ -1,0 +1,15 @@
+body {
+    background-color: black;
+    color: white;
+    height: auto;
+}
+
+//This applies for devices with resolutions larger than 1024x768,
+//IE: laptops and desktop monitors, possibly mobile tablets.
+@media (min-width: 768px) {
+body {
+    background-color: black;
+    color: white;
+    height: auto;
+  }
+}
